@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-dosya = open("/home/atarax/Desktop/deneme.txt", "r") 
+dosya = open("deneme.txt", "r") 
 icerik = dosya.read().split()
 yaz = {}
 for kelime in icerik:
